@@ -19,14 +19,14 @@ timer::~timer()
 {
     clock_t end;
     end = clock();
-    cout << "çµŒéŽæ™‚é–“:" << (end - start) / CLOCKS_PER_SEC << "\n";
+    cout << "Œo‰ßŽžŠÔ: " << (end - start) / CLOCKS_PER_SEC << " sec.\n";
 }
 
 int main() {
     timer ob;
     char c;
 
-    cout << "æœ€å¾ŒãŒ[ENTER]ã«ãªã‚‹ã‚ˆã†ã«ã‚­ãƒ¼ã‚’å…¥åŠ›:";
+    cout << "ÅŒã‚ª[ENTER]‚É‚È‚é‚æ‚¤‚ÉƒL[‚ð“ü—Í:";
     cin >> c;
 
     return 0;
