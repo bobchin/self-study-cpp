@@ -24,15 +24,17 @@ void card::show() {
 }
 
 int main() {
-    card book1, book2, book3;
+    card book1, book2, book3, book4;
 
     book1.store("本１", "いちはし", 4);
     book2.store("本２", "にはし", 10);
     book3.store("本３", "さんはし", 500);
+    book4.store("123456789|123456789|123456789|123456789|123456789|123456789|123456789|123456789|", "よんはし", 32768);
 
     book1.show();
     book2.show();
     book3.show();
+    book4.show();
 
     return 0;
 }
