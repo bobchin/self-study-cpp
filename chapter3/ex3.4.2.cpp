@@ -18,6 +18,7 @@ class truck
     int speed;
 public:
     truck(int w, int s) { weight = w; speed = s; };
+    // スコープ解決演算子を使用する
     friend int car::sp_greater(truck t);
 };
 
